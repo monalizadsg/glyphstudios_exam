@@ -1,0 +1,33 @@
+.app {
+  margin: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+
+.navbar-list-item {
+  padding: 5px 20px;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.selected {
+  font-weight: 700;
+  text-decoration: underline;
+}
