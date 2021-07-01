@@ -1,0 +1,37 @@
+.users {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  border-radius: 115px;
+  padding: 5px 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.users-list {
+  margin-top: 20px;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.users-list-item {
+  padding: 10px 0;
+}
+
+.user-list-item-email {
+  color: gray;
+}
+
+@media only screen and (max-width: 599px) {
+  .users {
+    width: 100%;
+  }
+}
