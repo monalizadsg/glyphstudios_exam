@@ -97,8 +97,6 @@ const EventForm = ({ onCloseModal, onSaveSuccess, selectedEvent }) => {
       users: usersToAdd,
     };
 
-    console.log(eventsData);
-
     let upsertPromise = null;
     if (selectedEvent?.id) {
       upsertPromise = updateEvent(eventsData, selectedEvent?.id);

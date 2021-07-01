@@ -51,7 +51,6 @@ const Events = () => {
   };
 
   const handleEditEvent = (event) => {
-    console.log(event);
     setSelectedEvent(event);
     setIsOpenModal(true);
   };
